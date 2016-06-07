@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Saniok\Lime Micro\Lime PCBs\RF-lxSpark_1v0\AltiumDesigner Design files\PCB\SoDeRa-PCIe_1v0.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=sodera-pcie_1v0-roundholes.txt|DrillLayers=gtl,g2,g3,g4,g5,g10,g11,g6,g7,g8,g9,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=sodera-pcie_1v0-slotholes.txt|DrillLayers=gtl,g2,g3,g4,g5,g10,g11,g6,g7,g8,g9,gbl
