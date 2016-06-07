@@ -1,4 +1,4 @@
-# LimeSDR
+# LimeSDR-PCIe
 
 ![LimeSDR PCIe board](/images/LimeSDR-PCIe_722w.jpg)
 
