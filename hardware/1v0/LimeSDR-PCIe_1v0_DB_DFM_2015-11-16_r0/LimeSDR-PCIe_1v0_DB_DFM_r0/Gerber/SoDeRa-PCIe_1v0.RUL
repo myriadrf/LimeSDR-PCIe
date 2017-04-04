@@ -1,5 +1,0 @@
-DRC Rules Export File for PCB: E:\Saniok\Lime Micro\Lime PCBs\RF-lxSpark_1v0\AltiumDesigner Design files\PCB\SoDeRa-PCIe_1v0.PcbDoc
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
