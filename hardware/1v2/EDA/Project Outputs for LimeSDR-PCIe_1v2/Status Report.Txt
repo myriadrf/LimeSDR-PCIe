@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:34:38 On 2017-02-01
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LimeSDR-PCIe_1v2.PrjPcb]
+   Generated File[LimeSDR-PCIe_1v2_BOMr0.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:36:31 On 2017-02-01
