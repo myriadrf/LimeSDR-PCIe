@@ -10,12 +10,10 @@ The directory structure is as follows:
          
       gateware/                  - Altera Cyclone IV FPGA project
 
-      hardware/<variant>/<version>/
-          Libraries/             	- Component Libraries
-          LimeSDR-PCIe_1v0_DB_DFM/      - BOM, Gerbers, NC drill, pick & place files, PDFs
-          OutputJobs/            	- Output jobs
-          PCB/                   	- PCB design
-          Schematics/            	- Schematic diagrams
+      hardware/<version>/
+          DFM/             	- Desgn for Manufacture related files
+          EDA/              - Altium project files
+          Info/            	- Files like schematic, BOM, 3D models etc. for end user
 
 ## Licensing
 
