@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 19:43:32 On 2017-03-17
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [LimeSDR-PCIe_1v3.PcbDoc]
+   Generated File[Pick Place for LimeSDR-PCIe_1v3.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 19:43:36 On 2017-03-17
