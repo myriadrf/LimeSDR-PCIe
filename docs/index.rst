@@ -6,7 +6,6 @@ Introduction
    :hidden:
 
    Introduction <self>
-   user/index
    reference/index
    developer
 

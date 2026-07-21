@@ -13,7 +13,6 @@ v1.3
    SDRAM
    leds
    peripheralinterfaces
-   jtag
    gpio
    fpgasw
    tempsensor
