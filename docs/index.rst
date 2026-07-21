@@ -18,7 +18,7 @@ Introduction
 
 The LimeSDR PCIe is a software-defined radio (SDR), with 2T2R MIMO capability and covering frequency range from 100 kHz to 3.8 GHz, with up to 61.44 MHz bandwidth. It is designed for flexible, wideband wireless communication development and experimentation.
 
-The LimeSDR PCIe development board provides a hardware platform for developing and prototyping high-performance and logic-intensive digital and RF designs using Altera’s Cyclone IV FPGA and Lime Microsystems transceiver.
+The LimeSDR PCIe development board provides a hardware platform for developing and prototyping high-performance and logic-intensive digital and RF designs using Altera’s Cyclone IV FPGA and Lime Microsystems transceiver, through which apps can be programmed to support any type of wireless standard, e.g. UMTS, LTE, LoRa, GPS, WiFi, Zigbee, RFID, Digital Broadcasting, Radar and many more.
 
 Specifications
 **************
