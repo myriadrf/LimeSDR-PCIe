@@ -70,11 +70,11 @@ Power Supply
    +---------------+--------------+---------------------+
    | **Parameter** | **Value**    | **Notes**           |
    +===============+==============+=====================+
-   | Input Voltage | 12 V DC      | USB connector       |
+   | Input Voltage | 12 V DC      | PCIe x4 connector   |
    |               +              +---------------------+
    |               |              | DC barrel connector |
    +---------------+--------------+---------------------+
-   | Maximum Power | 4.5 W        | USB 3.0 limit       |
+   | Maximum Power | 30 W         |                     |
    +---------------+--------------+---------------------+
 
 .. note::
