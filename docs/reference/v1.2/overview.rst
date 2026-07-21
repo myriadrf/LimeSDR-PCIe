@@ -1,7 +1,7 @@
 Overview
 ########
 
-The heart of the LimeSDR PCIe board is Altera Cyclone IV (P4CGX30CF23C7N) FPGA. Its main function is to transfer digital data between LMS7002M RF transceiver and the PC through a PCI Express x4 connector. The block diagram for LimeSDR USB board is presented in the Figure 3.
+The heart of the LimeSDR PCIe board is Altera Cyclone IV (P4CGX30CF23C7N) FPGA. Its main function is to transfer digital data between LMS7002M RF transceiver and the PC through a PCI Express x4 connector. The block diagram for LimeSDR PCIe board is presented in the Figure 3.
 
 .. figure:: /images/LimeSDR-PCIe_v1.2_diagrams_bd.png
   :width: 600
