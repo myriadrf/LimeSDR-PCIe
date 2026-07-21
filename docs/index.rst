@@ -16,11 +16,9 @@ Introduction
 
 
 
-The LimeSDR USB is a software-defined radio (SDR), with 2T2R MIMO capability and covering frequency range from 100 kHz to 3.8 GHz, with up to 61.44 MHz bandwidth. It is designed for flexible, wideband wireless communication development and experimentation.
+The LimeSDR PCIe is a software-defined radio (SDR), with 2T2R MIMO capability and covering frequency range from 100 kHz to 3.8 GHz, with up to 61.44 MHz bandwidth. It is designed for flexible, wideband wireless communication development and experimentation.
 
-The LimeSDR-USB development board provides a hardware platform for developing and prototyping high-performance and logic-intensive digital and RF designs using Altera’s Cyclone IV FPGA and Lime Microsystems transceiver.
-
-The LimeSDR-USB is available in versions with a USB Type A plug or a USB Type Micro-B socket connector. Both versions function identical.
+The LimeSDR PCIe development board provides a hardware platform for developing and prototyping high-performance and logic-intensive digital and RF designs using Altera’s Cyclone IV FPGA and Lime Microsystems transceiver.
 
 Specifications
 **************
@@ -56,15 +54,13 @@ RF
    * - Max. Safe Rx Input Power
      - 10 dBm
      - Absolute maximum
-   * - Rx Gain Range
-     - 89 dB
-     - LNA + TIA + PGA combined
+
 
 
 Digital Interface
 =================
 
-USB 3.0. 
+PCIe 1.0 x4 (4 lanes)
 
 Power Supply
 ============
@@ -74,9 +70,9 @@ Power Supply
    +---------------+--------------+---------------------+
    | **Parameter** | **Value**    | **Notes**           |
    +===============+==============+=====================+
-   | Input Voltage | 5 V DC       | USB connector       |
-   |               +--------------+---------------------+
-   |               | 6V - 12 V DC | DC barrel connector |
+   | Input Voltage | 12 V DC      | USB connector       |
+   |               +              +---------------------+
+   |               |              | DC barrel connector |
    +---------------+--------------+---------------------+
    | Maximum Power | 4.5 W        | USB 3.0 limit       |
    +---------------+--------------+---------------------+
@@ -110,7 +106,7 @@ Environmental
 Mechanical
 ==========
 
-Compact form factor, 60 × 100 mm, ~30g weight. (without enclosure)
+Low profile form factor: 68,9mm x 136,85mm.
 
 Features
 ********
@@ -119,49 +115,47 @@ Devices
 =======
 
 * RF transceiver: Lime Microsystems LMS7002M
-*  FPGA: Altera Cyclone IV family EP4CE40F23C8N in 484-pin FPGA package
+*  FPGA: Cyclone IV GX (EP4CGX30CF23C7N) device in 484-pin FBGA
  
- * 39’600 logic elements
- * 1134 Kbits embedded memory
- * 116 embedded 18x18 multipliers
- * 4 PLLs
- * JTAG mode configuration
- * Active serial mode configuration
- * Possibility to update FPGA gateware by using FX3 (USB)
+   * 29’440 logic elements
+   * 1080 Kbits embedded memory
+   * 80 embedded 18x18 multipliers
+   * 4 general and 2 multipurpose PLLs
+   * 4 high-speed transceivers
+   * PCIe (PIPE) hard IP block
   
-* USB 3.0 controller: Cypress CYUSB3014
 * Temperature sensor: LM75
   
 Clock system
 ============
 
-* 30.72MHz VCTCXO (precision: ±1 ppm initial, ±4 ppm stable).
+* 30.72MHz ±250 ppb onboard VCTCXO
 * Possibility to lock VCTCXO to external clock or tune VCTCXO by onboard DAC
 * Programmable clock generator for the FPGA reference clock input or LMS PLLs
+* 100 MHz and 2x 50MHz crystal oscillators for FPGA
 
 Memory
 ======
 
-* 2x 1Gbit (64M x 16) DDR2 SDRAM
-* 4Mbit flash for FX3 firmware
-* 16Mbit flash for FPGA gateware
-* 2 x 128K (16K x 8) EEPROMs for LMS MCU firmware, LMS MCU data
-* 1 x 64K (8K x 8) EEPROM for FX3 data
+* 2x 1Gbit (64M x 16) dual channel DDR2 SDRAM
+* 4Mbit flash for FPGA data
+* 64Mbit flash for FPGA gateware
+* 128Kb (16K x 8) EEPROM for LMS MCU firmware and 512Kb (64K x 8) LMS MCU data
 
 Connections
 ===========
 
-* Micro USB 3.0 (type B) connector or USB 3.0 (type A) plug
+* PCI Express x4 (4 lanes)
 * Coaxial RF (U.FL) connectors
-* FPGA GPIO headers (0.05” pitch)
-* FPGA and FX3 JTAG connectors (0.05” pitch)
-* 6..12V DC power jack and pinheader
-* Fan connector (3.3V)
+* FPGA GPIO 2x8 (3.3V) headers
+* FPGA and JTAG connector
+* DC (12V) power jack and pinheader
+* FAN (12V) connector
 
 Purchasing
 **********
 
-Please see the  `Lime Micro website`_ for purchasing options.
+Please contact us for purchasing information.
 
 RoHS
 ====
@@ -178,6 +172,3 @@ RF Transmission Notice
 
 .. warning::
    Operating RF transmitting equipment may require appropriate licensing. Users are responsible for ensuring compliance with local regulations. Unauthorised transmission may result in legal penalties.
-
-
-.. _Lime Micro Website: https://limemicro.com/sdr/limesdr-usb/
