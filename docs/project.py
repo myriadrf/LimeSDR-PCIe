@@ -20,6 +20,7 @@ highlight_language = 'console'
 # To minimise build time only include projects that are referenced.
 intersphinx_internal = [
     'suite',
+    'quickstart',
 ]
 
 intersphinx_external = [
