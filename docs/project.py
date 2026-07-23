@@ -1,9 +1,9 @@
 # Copyright date and release version should be updated accordingly!
 
 project = 'LimeSDR PCIe'
-copyright = '2016-2025 Lime Microsystems'
+copyright = '2016-2026 Lime Microsystems'
 author = 'Lime Microsystems'
-release = 'latest'
+release = 'v1.3'
 
 # These are used for the "Edit on GitHub" links.
 # github_repo_path should be set to the branch + path to the docs.
@@ -19,7 +19,8 @@ highlight_language = 'console'
 # Intersphinx mapping
 # To minimise build time only include projects that are referenced.
 intersphinx_internal = [
-#    'suiteng',
+    'suite',
+    'quickstart',
 ]
 
 intersphinx_external = [
@@ -30,4 +31,4 @@ intersphinx_external = [
 archived = False
 
 # When True internal intersphinx targets point at stage.myriadrf.org.
-staging = True
+staging = False
