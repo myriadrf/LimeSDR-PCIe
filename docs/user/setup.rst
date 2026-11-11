@@ -28,7 +28,7 @@ RF Connections
 
 .. figure:: /images/LimeSDR-PCIe_v1.3_user_rfcon.png
   :width: 600
-  
+
   Figure 3. LimeSDR PCIe v1.3 board top with RF connector positions
 
 Figure 3 shows the RF connector positions on LimeSDR PCIe v1.3. LimeSDR PCIe v1.2 boards use the same RF connector designators, which are listed in Table 2.

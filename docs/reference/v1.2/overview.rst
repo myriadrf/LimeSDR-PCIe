@@ -1,24 +1,24 @@
 Overview
 ########
 
-The heart of the LimeSDR PCIe board is Altera Cyclone IV (P4CGX30CF23C7N) FPGA. Its main function is to transfer digital data between LMS7002M RF transceiver and the PC through a PCI Express x4 connector. The block diagram for LimeSDR PCIe board is presented in the Figure 3.
+The heart of the LimeSDR PCIe board is Altera Cyclone IV (EP4CGX30CF23C7N) FPGA. Its main function is to transfer digital data between LMS7002M RF transceiver and the PC through a PCI Express x4 connector. The block diagram for LimeSDR PCIe board is presented in the Figure 3.
 
 .. figure:: /images/LimeSDR-PCIe_v1.2_diagrams_bd.png
   :width: 600
 
-  Figure 3: LimeSDR PCIe v1.2 board block diagram
+  Figure 3. LimeSDR PCIe v1.2 board block diagram
 
 This section contains component location description on the board. LimeSDR PCIe v1.3 board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively.
 
 .. figure:: /images/LimeSDR-PCIe_v1.2_components_top.png
   :width: 600
 
-  Figure 4: LimeSDR PCIe v1.2 board top connectors and main components
+  Figure 4. LimeSDR PCIe v1.2 board top connectors and main components
 
 .. figure:: /images/LimeSDR-PCIe_v1.2_components_bot.png
   :width: 600
 
-  Figure 5: LimeSDR PCIe v1.2 board bottom connectors and main components
+  Figure 5. LimeSDR PCIe v1.2 board bottom connectors and main components
 
 Description of board components is given in the Table 1.
 
@@ -55,9 +55,9 @@ Description of board components is given in the Table 1.
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
   | J12, J13            | Pinheader             | 8 + 8 FPGA GPIOs, 0.05” pitch                                                                                                  |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
-  | J14                 | Pinheader             | 12V fan connection pinheader, 0.1” pitch                                                                                       |
+  | J14                 | Pinheader             | 12 V fan connection pinheader, 0.1” pitch                                                                                      |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
-  | J18                 | Pinheader             | 12V internal power rail. Can be used to power external devices.                                                                |
+  | J18                 | Pinheader             | 12 V internal power rail. Can be used to power external devices.                                                               |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
   | SW1                 | Switch                | 4 pole switch                                                                                                                  |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
@@ -79,7 +79,7 @@ Description of board components is given in the Table 1.
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
   |                                                                              **Clock Circuitry**                                                                             |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
-  | XO1, XO2            | VCTCXO                | Voltage Controlled, Temperature Compensated Crystal Oscillator (30.72MHz, only one is soldered).                               |
+  | XO1, XO2            | VCTCXO                | Voltage Controlled, Temperature Compensated Crystal Oscillator (30.72 MHz, only one is soldered).                              |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
   | IC20                | IC                    | Programmable clock generator (Si5351C) for the FPGA reference clock input and RF boards                                        |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
@@ -93,9 +93,9 @@ Description of board components is given in the Table 1.
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
   |                                                                               **Power Supply**                                                                               |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
-  | J17                 | DC input jack         | External 12V DC power supply (Optional)                                                                                        |
+  | J17                 | DC input jack         | External 12 V DC power supply (not fitted)                                                                                     |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
-  | J18                 | Pinheader             | External 12V DC power supply and internal main power rail                                                                      |
+  | J18                 | Pinheader             | External 12 V DC power supply and internal main power rail                                                                     |
   +---------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 A more detailed description is provided in the following sections.

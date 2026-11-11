@@ -19,16 +19,16 @@ Four poles slide switch SW1 is connected to FPGA. Each switch line has external 
    * - 1
      - FPGA_SW0
      - D22
-     - 3.3V
+     - 3.3 V
    * - 2
      - FPGA_SW1
      - E21
-     - 3.3V
+     - 3.3 V
    * - 3
      - FPGA_SW2
      - E22
-     - 3.3V
+     - 3.3 V
    * - 4
      - FPGA_SW3
      - G22
-     - 3.3V
+     - 3.3 V
