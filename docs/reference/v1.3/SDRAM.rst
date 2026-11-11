@@ -1,9 +1,9 @@
 SDRAM
 #####
 
-LimeSDR PCIe board has two 128MB (16bit bus) DDR2 SDRAM ICs (AS4C64M16D2-25BCN) connected to double data rate pins on Cyclone IV GX 1.8V Bank 3, 4 and 5. RAM chips (IC11, IC12) are connected to separate memory controllers so RAM chips works in dual channel mode. The memory can be used for data manipulation at high data rates between transceiver and FPGA. Pin connection and corresponding signal names are listed in Table 6 and Table 7.
+LimeSDR PCIe board has two 128MB (16bit bus) DDR2 SDRAM ICs (AS4C64M16D2-25BCN) connected to double data rate pins on Cyclone IV GX 1.8V Bank 3, 4 and 5. RAM chips (IC11, IC12) are connected to separate memory controllers so RAM chips works in dual channel mode. The memory can be used for data manipulation at high data rates between transceiver and FPGA. Pin connection and corresponding signal names are listed in Table 7 and Table 8.
 
-.. list-table:: Table 6. DDR2 memory (IC11 - DDR2_1 BOT_L) pins
+.. list-table:: Table 7. DDR2 memory (IC11 - DDR2_1 BOT_L) pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -297,7 +297,7 @@ LimeSDR PCIe board has two 128MB (16bit bus) DDR2 SDRAM ICs (AS4C64M16D2-25BCN) 
      -
      - IC8 Banks 3, 4, 5 VREF
 
-.. list-table:: Table 7. DDR2 memory (IC12 - DDR2_2 BOT_R) pins
+.. list-table:: Table 8. DDR2 memory (IC12 - DDR2_2 BOT_R) pins
    :header-rows: 1
    :stub-columns: 1
 

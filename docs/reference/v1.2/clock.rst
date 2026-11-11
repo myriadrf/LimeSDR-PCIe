@@ -20,7 +20,7 @@ The programmable clock generator (IC20, Si5351C) can generate any reference cloc
 
 How to configure clocks using LMS7Suite read in chapter 7.4 Clock configuration.
 
-.. table:: Table 4. LimeSDR PCIe clock pins
+.. table:: Table 5. LimeSDR PCIe clock pins
 
   +-------------------------------------+-----------------+------------------+--------------+--------------------------------+
   |                                     | **Schematic**   |                  |              |                                |

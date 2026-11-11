@@ -1,9 +1,9 @@
 GPIO Connectors
 ###############
 
-There are J12 and J13 connectors (pinheaders) there 8 + 8 FPGA GPIOs are connected (3.3V IO compatible) with GND and power pins (3.3V). In Table 17 are listed connector J12 pins and in Table 18 are listed connector J13 pins, corresponding FPGA pins and other information.
+There are J12 and J13 connectors (pinheaders) there 8 + 8 FPGA GPIOs are connected (3.3V IO compatible) with GND and power pins (3.3V). In Table 18 are listed connector J12 pins and in Table 19 are listed connector J13 pins, corresponding FPGA pins and other information.
 
-.. list-table:: Table 17. FPGA GPIO connector (J12) pins
+.. list-table:: Table 18. FPGA GPIO connector (J12) pins
    :header-rows: 1
    :stub-columns: 1
 
@@ -64,7 +64,7 @@ There are J12 and J13 connectors (pinheaders) there 8 + 8 FPGA GPIOs are connect
      - Power net (3.3V)
 
 
-.. list-table:: Table 18. FPGA GPIO connector (J13) pins
+.. list-table:: Table 19. FPGA GPIO connector (J13) pins
    :header-rows: 1
    :stub-columns: 1
    

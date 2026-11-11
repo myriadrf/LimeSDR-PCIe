@@ -1,9 +1,9 @@
 PCI Express x4 Connector
 ########################
 
-For data transfer LimeSDR PCIe board has PCI express connector with four lanes. PCI express interface is implemented in FPGA. Pin connection and corresponding signal names are listed in Table 5.
+For data transfer LimeSDR PCIe board has PCI express connector with four lanes. PCI express interface is implemented in FPGA. Pin connection and corresponding signal names are listed in Table 6.
 
-.. list-table:: Table 5. PCIe connector pins
+.. list-table:: Table 6. PCIe connector pins
    :header-rows: 1
    :stub-columns: 1
    

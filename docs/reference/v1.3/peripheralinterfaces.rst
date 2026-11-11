@@ -18,7 +18,7 @@ Flash for FPGA gateware
 
 Flash memory (IC9 or IC10) is used to store FPGA gateware.
 
-.. list-table:: Table 9. FPGA configuration flash interface pins
+.. list-table:: Table 10. FPGA configuration flash interface pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -47,7 +47,7 @@ RFIC
 
 RFIC is connected to FPGA_SPI0.
   
-.. list-table:: Table 10. FPGA SPI0 interface pins
+.. list-table:: Table 11. FPGA SPI0 interface pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -78,7 +78,7 @@ Phase detector and DAC
 Phase detector with VCTCXO DAC are connected to FPGA_SPI1.
 
   
-.. list-table:: Table 11. FPGA SPI1 interface pins
+.. list-table:: Table 12. FPGA SPI1 interface pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -107,7 +107,7 @@ Flash memory
 
 Flash memory is connected to FPGA_SPI2.
 
-.. list-table:: Table 12. FPGA SPI2 interface pins
+.. list-table:: Table 13. FPGA SPI2 interface pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -139,9 +139,9 @@ Board has two independent I2C interfaces: FPGA_I2C and LMS_I2C.
 FPGA_I2C
 ========
 
-This interface has several slave devices temperature sensor, EEPROM and clock generator. Information for slave devices are provided in Table 13, signal connectivity information is in Table 14.
+This interface has several slave devices temperature sensor, EEPROM and clock generator. Information for slave devices are provided in Table 14, signal connectivity information is in Table 15.
 
-.. list-table:: Table 13. FPGA_I2C interface devices
+.. list-table:: Table 14. FPGA_I2C interface devices
    :header-rows: 1
 
    * - I2C slave device
@@ -165,7 +165,7 @@ This interface has several slave devices temperature sensor, EEPROM and clock ge
      - 3.3V
      - Si5351C
 
-.. list-table:: Table 14. FPGA_I2C pins
+.. list-table:: Table 15. FPGA_I2C pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -185,9 +185,9 @@ This interface has several slave devices temperature sensor, EEPROM and clock ge
 LMS_I2C
 =======
 
-This interface has two EEPROMs. In Table 15 are listed all LMS_I2C slave devices and their information.
+This interface has two EEPROMs. In Table 16 are listed all LMS_I2C slave devices and their information.
 
-.. list-table:: Table 15. LMS_I2C interface devices
+.. list-table:: Table 16. LMS_I2C interface devices
    :header-rows: 1
 
    * - I2C slave device
@@ -206,9 +206,9 @@ This interface has two EEPROMs. In Table 15 are listed all LMS_I2C slave devices
      - 3.3V
      - 24FC512
 
-LMS_I2C interface (LMS_I2C_SCL, LMS_I2C_SDA) is connected via 0R resistors to FPGA pins for debugging purposes, see Table 16.
+LMS_I2C interface (LMS_I2C_SCL, LMS_I2C_SDA) is connected via 0R resistors to FPGA pins for debugging purposes, see Table 17.
 
-.. list-table:: Table 16. LLMS_I2C pins
+.. list-table:: Table 17. LLMS_I2C pins
    :header-rows: 1
 
    * - Schematic signal name

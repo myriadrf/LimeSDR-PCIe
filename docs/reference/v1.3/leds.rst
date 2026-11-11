@@ -8,9 +8,9 @@ LimeSDR PCIe board comes with 6 indication LEDs which can be controlled from FPG
 
   Figure 7. LimeSDR PCIe v1.3 indication LEDs (top)
 
-Each LED has it is own function. Most of LEDs are connected to FPGA and their function can be changed. Default LEDs functions and other information are listed in the Table 8.
+Each LED has it is own function. Most of LEDs are connected to FPGA and their function can be changed. Default LEDs functions and other information are listed in Table 9.
 
-.. table:: Table 8. Default LEDs configuration
+.. table:: Table 9. Default LEDs configuration
 
   +-----------------+---------------+------------+-----------------+--------------+------------------+----------------------------------------+
   |                 | **Schematic** |            | **Schematic**   |              |                  |                                        |

@@ -8,7 +8,7 @@ Four poles slide switch SW1 is connected to FPGA. Each switch line has external 
 
   Figure 9. LimeSDR PCIe v1.2 FPGA switch schematics
 
-.. list-table:: Table 19. FPGA Switch connections
+.. list-table:: Table 20. FPGA Switch connections
    :header-rows: 1
    :stub-columns: 1
 
