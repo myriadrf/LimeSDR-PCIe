@@ -4,9 +4,9 @@ Hardware Setup
 Host Interface
 **************
 
-LimeSDR PCIe should be plugged into a PCI Express x4 slot on the host device. 
+LimeSDR PCIe should be plugged into a PCI Express x4 slot on the host device.
 
-The host must provide a PCIe Gen1 x4 interface, and supply power via the PCIe x4 connector.
+The host must provide a PCIe Gen1 x4 interface, and supply power (12 V) via the PCIe x4 connector.
 
 Cooling
 *******
@@ -18,6 +18,11 @@ When designing a cooling solution for a LimeSDR PCIe–based system, power dissi
 .. note::
    In the event of errors, instability or reduced performance, check the board temperature to ensure that it is within the specified operating range.
 
+Fan Connection
+**************
+
+A 12 V fan can be connected to connector J14. The fan is switched on and off by the FPGA according to the board temperature, see :doc:`/reference/v1.3/tempsensor`.
+
 RF Connections
 **************
 
@@ -26,9 +31,9 @@ RF Connections
   
   Figure 3. LimeSDR PCIe v1.3 board top with RF connector positions
 
-Figure 3 shows the RF connector positions on LimeSDR PCIe v1.3. LimeSDR PCIe v1.2 boards use the same RF connector designators, which are listed in Table 1.
+Figure 3 shows the RF connector positions on LimeSDR PCIe v1.3. LimeSDR PCIe v1.2 boards use the same RF connector designators, which are listed in Table 2.
 
-.. list-table:: Table 1. RF connectors
+.. list-table:: Table 2. RF connectors
    :header-rows: 1
    :stub-columns: 1
 
