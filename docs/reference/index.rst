@@ -1,7 +1,7 @@
 Hardware Reference
 ##################
 
-The LimeSDR PCIe Hardware Reference manual is organised into separate sections for each board revision. 
+The LimeSDR PCIe Hardware Reference manual is organised into separate sections for each board revision.
 
 .. toctree::
    :maxdepth: 1

@@ -4,9 +4,9 @@ Hardware Setup
 Host Interface
 **************
 
-LimeSDR PCIe should be plugged into a PCI Express x4 slot on the host device. 
+LimeSDR PCIe should be plugged into a PCI Express x4 slot on the host device.
 
-The host must provide a PCIe Gen1 x4 interface, and supply power via the PCIe x4 connector.
+The host must provide a PCIe Gen1 x4 interface, and supply power (12 V) via the PCIe x4 connector.
 
 Cooling
 *******
@@ -18,54 +18,61 @@ When designing a cooling solution for a LimeSDR PCIe–based system, power dissi
 .. note::
    In the event of errors, instability or reduced performance, check the board temperature to ensure that it is within the specified operating range.
 
+Fan Connection
+**************
+
+A 12 V fan can be connected to connector J14. The fan is switched on and off by the FPGA according to the board temperature, see :doc:`/reference/v1.3/tempsensor`.
+
 RF Connections
 **************
 
 .. figure:: /images/LimeSDR-PCIe_v1.3_user_rfcon.png
   :width: 600
-  
-  Figure 3: LimeSDR PCIe v1.3 board top with RF connectors positions
 
-.. list-table:: Table 1. RF Connectors
+  Figure 3. LimeSDR PCIe v1.3 board top with RF connector positions
+
+Figure 3 shows the RF connector positions on LimeSDR PCIe v1.3. LimeSDR PCIe v1.2 boards use the same RF connector designators, which are listed in Table 2.
+
+.. list-table:: Table 2. RF connectors
    :header-rows: 1
    :stub-columns: 1
 
-   * - Connector
-     - Frequency Range
-     - Notes
-   * - J1
-     - 0.03 GHz - 1.9 GHz
-     - Channel 1 transmit low frequency range
-   * - J2
-     - 2 GHz - 2.6 GHz
-     - Channel 1 transmit high frequency range
-   * - J3
-     - 0.7 GHz - 0.9 GHz
-     - Channel 1 receive low frequency range
-   * - J4
-     - 2 GHz - 2.6 GHz
-     - Channel 1 receive high frequency range
-   * - J5
-     - 0.7 GHz - 2.6 GHz
-     - Channel 1 receive wide frequency range
-   * - J6
-     - 0.03 GHz - 1.9 GHz
-     - Channel 2 transmit low frequency range
-   * - J7
-     - 2 GHz - 2.6 GHz
-     - Channel 2 transmit high frequency range
-   * - J8
-     - 0.7 GHz - 0.9 GHz
-     - Channel 2 receive low frequency range
-   * - J9
-     - 2 GHz - 2.6 GHz
-     - Channel 2 receive high frequency range
-   * - J10
-     - 0.7 GHz - 2.6 GHz
-     - Channel 2 receive wide frequency range
+   * - RF port
+     - Connector
+     - Recommended range
+   * - TX1_1
+     - J1
+     - Below 2 GHz
+   * - TX1_2
+     - J2
+     - 2 GHz and above
+   * - RX1_L
+     - J3
+     - Below 1.5 GHz
+   * - RX1_W
+     - J5
+     - 1.5 GHz to 2.2 GHz
+   * - RX1_H
+     - J4
+     - 2.2 GHz and above
+   * - TX2_1
+     - J6
+     - Below 2 GHz
+   * - TX2_2
+     - J7
+     - 2 GHz and above
+   * - RX2_L
+     - J8
+     - Below 1.5 GHz
+   * - RX2_W
+     - J10
+     - 1.5 GHz to 2.2 GHz
+   * - RX2_H
+     - J9
+     - 2.2 GHz and above
 
 .. note::
-   TX and RX bands frequency ranges are determined by matching networks. These bands frequency ranges can be changed by replacing their matching networks components.
+   The recommended frequency ranges are approximate values that cover most use cases, not hard limits of the RF paths. The optimum path may vary depending on other factors, such as the antenna and RF front-end parameters.
 
 .. warning::
    Care should be taken when connecting external RF signals to the RX inputs, to ensure that the maximum safe input power of +10 dBm is not exceeded, as this may cause permanent damage to the device.

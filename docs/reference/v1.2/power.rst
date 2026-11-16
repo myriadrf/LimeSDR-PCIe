@@ -1,7 +1,7 @@
 Power Distribution
 ##################
 
-LimeSDR PCIe board power distribution block diagram is presented in Figure 10.
+LimeSDR PCIe board power distribution block diagram is presented in Figure 11.
 
 .. figure:: /images/LimeSDR-PCIe_v1.2_power.png
   :width: 600

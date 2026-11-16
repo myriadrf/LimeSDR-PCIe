@@ -26,7 +26,7 @@ Specifications
 RF
 ==
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
    :stub-columns: 1
 
@@ -44,11 +44,11 @@ RF
      - Software configurable
    * - Sample rate
      - 61.44 MSPS
-     - 
+     -
    * - Sample depth
      - 12 bit
-     - 
-   * - Power Ouput (CW)
+     -
+   * - Power Output (CW)
      - Up to 10 dBm
      - Dependent on frequency
    * - Max. Safe Rx Input Power
@@ -65,17 +65,17 @@ PCIe 1.0 x4 (4 lanes)
 Power Supply
 ============
 
-.. table:: 
+.. table::
 
-   +---------------+--------------+---------------------+
-   | **Parameter** | **Value**    | **Notes**           |
-   +===============+==============+=====================+
-   | Input Voltage | 12 V DC      | PCIe x4 connector   |
-   |               +              +---------------------+
-   |               |              | DC barrel connector |
-   +---------------+--------------+---------------------+
-   | Maximum Power | 30 W         |                     |
-   +---------------+--------------+---------------------+
+   +---------------+--------------+--------------------------------------+
+   | **Parameter** | **Value**    | **Notes**                            |
+   +===============+==============+======================================+
+   | Input Voltage | 12 V DC      | PCIe x4 connector                    |
+   |               |              +--------------------------------------+
+   |               |              | DC barrel connector J17 (not fitted) |
+   +---------------+--------------+--------------------------------------+
+   | Maximum Power | 30 W         |                                      |
+   +---------------+--------------+--------------------------------------+
 
 .. note::
    Power consumption depends on configuration.
@@ -86,7 +86,7 @@ Power Supply
 Environmental
 =============
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
    :stub-columns: 1
 
@@ -100,13 +100,13 @@ Environmental
      - 0 °C to +70 °C
      - N/A
    * - Operating Humidity
-     - 10% to 90% RH  
+     - 10% to 90% RH
      - Non-condensing
 
 Mechanical
 ==========
 
-Low profile form factor: 68,9mm x 136,85mm.
+Low profile form factor: 68.9 mm x 136.85 mm.
 
 Features
 ********
@@ -116,23 +116,23 @@ Devices
 
 * RF transceiver: Lime Microsystems LMS7002M
 *  FPGA: Cyclone IV GX (EP4CGX30CF23C7N) device in 484-pin FBGA
- 
+
    * 29’440 logic elements
    * 1080 Kbits embedded memory
    * 80 embedded 18x18 multipliers
    * 4 general and 2 multipurpose PLLs
    * 4 high-speed transceivers
    * PCIe (PIPE) hard IP block
-  
+
 * Temperature sensor: LM75
-  
+
 Clock system
 ============
 
-* 30.72MHz ±250 ppb onboard VCTCXO
+* 30.72 MHz ±250 ppb onboard VCTCXO
 * Possibility to lock VCTCXO to external clock or tune VCTCXO by onboard DAC
 * Programmable clock generator for the FPGA reference clock input or LMS PLLs
-* 100 MHz and 2x 50MHz crystal oscillators for FPGA
+* 100 MHz and 2x 50 MHz crystal oscillators for FPGA
 
 Memory
 ======
@@ -147,10 +147,10 @@ Connections
 
 * PCI Express x4 (4 lanes)
 * Coaxial RF (U.FL) connectors
-* FPGA GPIO 2x8 (3.3V) headers
+* FPGA GPIO 2x8 (3.3 V) headers
 * FPGA and JTAG connector
-* DC (12V) power jack and pinheader
-* FAN (12V) connector
+* DC (12 V) pin header (power jack not fitted)
+* FAN (12 V) connector
 
 Purchasing
 **********

@@ -1,12 +1,12 @@
 PCI Express x4 Connector
 ########################
 
-For data transfer LimeSDR PCIe board has PCI express connector with four lanes. PCI express interface is implemented in FPGA. Pin connection and corresponding signal names are listed in Table 5.
+For data transfer LimeSDR PCIe board has PCI express connector with four lanes. PCI express interface is implemented in FPGA. Pin connection and corresponding signal names are listed in Table 6.
 
-.. list-table:: Table 5. PCIe connector pins
+.. list-table:: Table 6. PCIe connector pins
    :header-rows: 1
    :stub-columns: 1
-   
+
    * - Connector pin
      - Schematic signal name
      - FPGA pin
@@ -15,17 +15,17 @@ For data transfer LimeSDR PCIe board has PCI express connector with four lanes. 
    * - B5
      - PCIE_SMCLK
      - A10
-     - 3.3V
+     - 3.3 V
      -
    * - B6
      - PCIE_SMDAT
      - B10
-     - 3.3V
+     - 3.3 V
      -
    * - B11
      - PCIE_WAKEn
      - G12
-     - 3.3V
+     - 3.3 V
      - Signal is disconnected with not fitted R100 resistor
    * - B14
      - PCIE_HSO0_P
@@ -70,16 +70,16 @@ For data transfer LimeSDR PCIe board has PCI express connector with four lanes. 
    * - A11
      - PCIE_PERSTn
      - H12
-     - 3.3V
+     - 3.3 V
      -
    * - A13
      - PCIE_REFCLK_P
-     - M11
+     - M7
      - HCSL
      -
    * - A14
      - PCIE_REFCLK_N
-     - N11
+     - N7
      - HCSL
      -
    * - A16
